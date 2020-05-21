@@ -12,9 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/**Honne*/
-Route::get('/','BasicController@home');
-
+/**Home*/
+Route::get('home','BasicController@home');
 /**About*/
 Route::get('about','BasicController@about');
 /**Service*/
